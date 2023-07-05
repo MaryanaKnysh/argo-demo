@@ -1,0 +1,9 @@
+replicaCount: 3
+
+image:
+  repository: 051154347393.dkr.ecr.us-east-1.amazonaws.com/artemis
+  pullPolicy: IfNotPresent
+  tag: "latest"
+
+imagePullSecrets:
+  - regcred 
