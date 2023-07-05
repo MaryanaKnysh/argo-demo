@@ -27,6 +27,6 @@ ingress:
         - path: /
           pathType: ImplementationSpecific
   tls: 
-     - secretName: dev-artemis-tls
-       hosts:
-         - dev-artemis-getevolvecyber.com
+    - secretName: dev-artemis-tls
+      hosts:
+        - dev-artemis-getevolvecyber.com
